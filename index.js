@@ -32,6 +32,11 @@ const content = stringify({
   // Idioma do CMS, não do site.
   locale: "pt",
 
+  // Também é possível configurar tradução dos conteúdos para várias línguas,
+  // mas é um pouco complicado para explicar aqui.
+  // Você pode ler sobre na documentação: https://decapcms.org/docs/beta-features/#i18n-support
+  // Pela experiência, recomendo a estrutura single_file.
+
   // https://decapcms.org/docs/collection-types/
   // Aqui é onde você define os tipos de conteúdo do CMS.
   // Há dois tipos de coleção: Folder e File.

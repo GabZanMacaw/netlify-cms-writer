@@ -8,6 +8,7 @@ import * as cms from "./cmsUtil";
 // OBS: O que não está comentado não deve ser alterado.
 const content = stringify({
   // https://decapcms.org/docs/configuration-options/#backend
+  // Aqui você só precisa se preocupar com a opção "branch"
   backend: {
     name: "git-gateway",
 

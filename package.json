@@ -1,0 +1,17 @@
+{
+  "name": "netlify-cms-writer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "slug": "^8.2.2",
+    "yaml": "^2.2.1"
+  }
+}

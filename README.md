@@ -1,3 +1,5 @@
+Documentação do Netlify CMS (Decap CMS): https://decapcms.org/docs/intro/
+
 # Como instalar o Netlify CMS (Decap CMS) em um projeto Next.js
 
 No seu projeto Next.js, crie um arquivo `/public/admin/index.html` e cole nele o seguinte conteúdo:

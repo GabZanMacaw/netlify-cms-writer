@@ -337,7 +337,7 @@ export function list(label, options, fields) {
     return {
       label,
       widget: "list",
-      field: fields,
+      field: fields[0],
       ...opt(options, { i18n: true, name: slugify(label), summary: label }),
     };
   }

@@ -98,7 +98,7 @@ entries necessários (mais explicações no `index.js`).
 Para iniciar o servidor local, primeiro, descomente a linha `//local_backend: true` no `index.js`.
 Rode `npm run build` para gerar um novo `config.yml` e coloque-o no seu projeto Next.js.
 
-Depois, abra um terminal e rode `npx netlify-cms-proxy-server`.
+Depois, abra um terminal e rode `npx netlify-cms-proxy-server` na mesma pasta que o seu projeto Next.js.
 
 Agora é só ir para a página `/admin` (ou `/admin/index.html` se não funcionar) do seu site local
 e começar a editar.

@@ -1,6 +1,6 @@
 import { stringify } from "yaml";
 import * as fs from "fs";
-import * as cms from "./cmsUtil";
+import * as cms from "./cmsUtil.js";
 
 // https://decapcms.org/docs/intro/
 // Escreva o seu objeto de configuração abaixo, dentro da função `stringify`.
